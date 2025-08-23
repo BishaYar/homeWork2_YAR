@@ -30,22 +30,22 @@ public class Main {
         System.out.println("4_friend = " + friend);
 
         friend = friend + 2;
-        System.out.println("friend+2 = " + friend);
+        System.out.println("friend + 2 = " + friend);
 
-        friend = friend/7;
-        System.out.println("friend/7 = " + friend);
+        friend = friend / 7;
+        System.out.println("friend / 7 = " + friend);
 
         var frog = 3.5;
         System.out.println("5_frog = " + frog);
 
-        frog = frog*10;
-        System.out.println("frog*10 = " + frog);
+        frog = frog * 10;
+        System.out.println("frog * 10 = " + frog);
 
-        frog = frog/3.5;
-        System.out.println("frog/3.5 = " + frog);
+        frog = frog / 3.5;
+        System.out.println("frog / 3.5 = " + frog);
 
         frog = frog + 4;
-        System.out.println("frog+4 = " + frog);
+        System.out.println("frog + 4 = " + frog);
 
         var boxer1Weight = 78.2;
         var boxer2Weight = 82.7;
@@ -56,15 +56,16 @@ public class Main {
         var diffWeight = boxer2Weight - boxer1Weight;
         System.out.println("Разница между массами бойцов = " + diffWeight);
 
-        var remWeight = boxer2Weight%boxer1Weight;
+        var remWeight = boxer2Weight % boxer1Weight;
         System.out.println("Остаток от деления =  " + remWeight);
 
         var allHourWork = 640;
         var oneHour = 8;
-        var countWorker = allHourWork/oneHour;
-        System.out.println("countWorker = " + countWorker);
+        var countWorker = allHourWork / oneHour;
+        System.out.println("Всего работников в компании — " + countWorker + " человек.");
 
+        countWorker = countWorker + 94;
+        allHourWork = countWorker * oneHour;
+        System.out.println("Если в компании работает " + countWorker + " человек, то всего " + allHourWork + " часов работы может быть поделено между сотрудниками.");
     }
-
-
 }
