@@ -65,7 +65,7 @@ public class Main {
         System.out.println("Всего работников в компании — " + countWorker + " человек.");
 
         countWorker = countWorker + 94;
-        allHourWork = countWorker * oneHour;
-        System.out.println("Если в компании работает " + countWorker + " человек, то всего " + allHourWork + " часов работы может быть поделено между сотрудниками.");
+        oneHour = allHourWork / countWorker;
+        System.out.println("Если в компании работает " + countWorker + " человек, то всего " + oneHour + " часов работы может быть поделено между сотрудниками.");
     }
 }
